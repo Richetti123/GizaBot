@@ -8,9 +8,8 @@ let handler = async (m, { conn, args, command, usedPrefix }) => {
 if (!args[0]) throw `*SCRIM*
 
 𝐇𝐎𝐑𝐀𝐑𝐈𝐎
-🇵🇪 𝐏𝐄𝐑𝐔 : 
-🇦🇷 𝐀𝐑𝐆𝐄𝐍𝐓𝐈𝐍𝐀 : 
-🇨🇱 𝐂𝐇𝐈𝐋𝐄 :  
+🇲🇽 𝐌𝐄𝐗 : 
+🇨🇴 𝐂𝐎𝐋 :  
 
 🥷🏻 ┇ 
 🥷🏻 ┇  
