@@ -101,7 +101,7 @@ externalAdReply: {
 title: wm,
 body: '🌟 Puede modificar su registro antes de finalizar',
 thumbnailUrl: './Menu2.jpg', 
-sourceUrl: 'https://www.instagram.com/ceogeripium.dzn',
+sourceUrl: 'https://www.instagram.com/vsebas.y',
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
@@ -581,7 +581,7 @@ externalAdReply: {
 title: wm,
 body: user.name,
 thumbnailUrl: './Menu2.jpg', 
-sourceUrl: 'https://www.instagram.com/ceogeripium.dzn',
+sourceUrl: 'https://www.instagram.com/vsebas.y',
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
