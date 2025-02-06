@@ -9,7 +9,7 @@ let handler = m => m
 handler.all = async function (m) {
 global.key = ''
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
-let pp = await this.profilePictureUrl(who, 'image').catch(_ => "https://qu.ax/aLDNv.jpg")
+let pp = await this.profilePictureUrl(who, 'image').catch(_ => "https://i.ibb.co/Jj0vzbqV/Menu2.jpg")
 
 // Fake
 global.fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
@@ -44,52 +44,52 @@ global.welgata = [tk, ig, md, yt, paypal, fb, ths, asistencia][Math.floor(Math.r
 global.redesMenu = [all, canal1, canal2, canal3, canal4, md, ig, paypal, yt, asistencia, fb, tk][Math.floor(Math.random() * 12)]
 global.accountsgb = [all, canal1, canal2, canal3, canal4, tk, ig, yt, paypal, fb, ths, md, asistencia][Math.floor(Math.random() * 13)]
 
-global.canalIdGB = ["120363314640015862@newsletter"]
-global.canalNombreGB = ["VENTA DE BOTS @ysebastian.g"]
+global.canalIdGB = ["120363258427334062@newsletter"]
+global.canalNombreGB = ["CANAL MICHIBOT😼🤖"]
 global.channelRD = await getRandomChannel()
 
 // Imágenes 
-global.imagen1 = fs.readFileSync("./media/menus/Menu3.jpg")
-global.imagen2 = fs.readFileSync("./media/menus/img1.jpg")
-global.imagen3 = fs.readFileSync("./media/menus/img2.jpg")
-global.imagen4 = fs.readFileSync("./media/menus/img3.jpg")
-global.imagen5 = fs.readFileSync("./media/menus/img4.jpg")
-global.imagen6 = fs.readFileSync("./media/menus/img5.jpg")
-global.imagen7 = fs.readFileSync("./media/menus/img6.jpg")
-global.imagen8 = fs.readFileSync("./media/menus/img7.jpg")
-global.imagen9 = fs.readFileSync("./media/menus/img8.jpg")
-global.imagen10 = fs.readFileSync("./media/menus/img9.jpg")
-global.imagen11 = fs.readFileSync("./media/menus/img10.jpg")
-global.imagen12 = fs.readFileSync("./media/menus/img11.jpg")
-global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
+global.imagen1 = fs.readFileSync("./Menu2.jpg")
+global.imagen2 = fs.readFileSync("./Menu2.jpg")
+global.imagen3 = fs.readFileSync("./Menu2.jpg")
+global.imagen4 = fs.readFileSync("./Menu2.jpg")
+global.imagen5 = fs.readFileSync("./Menu2.jpg")
+global.imagen6 = fs.readFileSync("./Menu2.jpg")
+global.imagen7 = fs.readFileSync("./Menu2.jpg")
+global.imagen8 = fs.readFileSync("./Menu2.jpg")
+global.imagen9 = fs.readFileSync("./Menu2.jpg")
+global.imagen10 = fs.readFileSync("./Menu2.jpg")
+global.imagen11 = fs.readFileSync("./Menu2.jpg")
+global.imagen12 = fs.readFileSync("./Menu2.jpg")
+global.imagen13 = fs.readFileSync("./Menu2.jpg")
 
-global.img = 'https://qu.ax/aLDNv.jpg'
-global.img2 = 'https://qu.ax/aLDNv.jpg'
+global.img = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
+global.img2 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
 
-global.img3 = 'https://qu.ax/aLDNv.jpg' //prem
-global.img4 = 'https://qu.ax/aLDNv.jpg' //prem
+global.img3 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg' //prem
+global.img4 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg' //prem
 
-global.img5 = 'https://qu.ax/aLDNv.jpg'
-global.img6 = 'https://qu.ax/aLDNv.jpg'
-global.img7 = 'https://qu.ax/aLDNv.jpg'
-global.img8 = 'https://qu.ax/aLDNv.jpg'
-global.img9 = 'https://qu.ax/aLDNv.jpg'
+global.img5 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
+global.img6 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
+global.img7 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
+global.img8 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
+global.img9 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
 
-global.img10 = 'https://qu.ax/aLDNv.jpg'
-global.img11 = 'https://qu.ax/aLDNv.jpg'
-global.img12 = 'https://qu.ax/aLDNv.jpg'
-global.img13 = 'https://qu.ax/aLDNv.jpg'
-global.img14 = 'https://qu.ax/aLDNv.jpg'
-global.img15 = 'https://qu.ax/aLDNv.jpg' 
+global.img10 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
+global.img11 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
+global.img12 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
+global.img13 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
+global.img14 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
+global.img15 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
 
-global.img16 = 'https://qu.ax/aLDNv.jpg' //+18
+global.img16 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg' //+18
 
-global.img17 = 'https://qu.ax/aLDNv.jpg'
-global.img18 = 'https://qu.ax/aLDNv.jpg'
+global.img17 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
+global.img18 = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
 
-global.logogit = 'https://qu.ax/aLDNv.jpg'
+global.logogit = 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'
 
-global.gataVidMenu = ['https://qu.ax/aLDNv.jpg', 'https://qu.ax/aLDNv.jpg', 'https://qu.ax/aLDNv.jpg'][Math.floor(Math.random() * 3)]
+global.gataVidMenu = ['https://i.ibb.co/Jj0vzbqV/Menu2.jpg', 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg', 'https://i.ibb.co/Jj0vzbqV/Menu2.jpg'][Math.floor(Math.random() * 3)]
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18][Math.floor(Math.random() * 11)]
 global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13][Math.floor(Math.random() * 13)]
 
