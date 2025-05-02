@@ -6,26 +6,20 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
 let user = global.db.data.users[m.sender]
-if (!args[0]) return conn.reply(m.chat, `*METODOS DE PAGO A REALIZAR DESDE 🇲🇽🇨🇱🇦🇷🇵🇪*
-*MEXICO: Sarai Ortega Gongora*
-CLABE: 646016206894617534
-Institución: STP
-Descripción: comida
-________________________
-*CHILE: BARINIA VALESKA ZENTENO MERINO*
-17053067-5
-BANCO ELEGIR: TEMPO
-Tipo de cuenta: Cuenta Vista 
-Numero de cuenta: 111117053067
-Correo: estraxer2002@gmail.com
-________________________
-*PERU: Marcelo Gonzales R.*
-Yape: 967699188
-Plin: 955095498
-________________________
-*ARGENTINA: Gaston Juarez*
-4530000800011127480736
-________________________`, fkontak, m)
+if (!args[0]) return conn.reply(m.chat, `4169 1614 3972 9350
+BanCoppel 
+Sebastian Gómez
+
+638180000157070246
+NU 
+Sebastián Gómez  
+
+722969010173816815
+Sebastián Gómez
+Mercado Pago W
+
+Paypal
+https://www.paypal.me/ysebastiangomez`, fkontak, m)
 if (!args[0].match(/www.facebook.com|fb.watch/g)) return conn.reply(m.chat, `*METODOS DE PAGO A REALIZAR DESDE 🇲🇽🇨🇱🇦🇷🇵🇪*
 *MEXICO: Sarai Ortega Gongora*
 CLABE: 646016206894617534
